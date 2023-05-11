@@ -174,8 +174,8 @@
        ;; :swapfile false
        ;; :showmode false
        ;; show line numbers
-       ;; :number true
-       :relativenumber true
+       :number true
+       ;; :relativenumber true
        ;show line and column number
        :ruler true
        ;settings needed for compe autocompletion
@@ -199,7 +199,7 @@
        ;; :shiftwidth 2
        ;; :softtabstop 2
        ;persistent undo
-       ;; :undofile true
+       :undofile true
        ;open new horizontal panes on down pane
        :splitbelow true
        ;open new vertical panes on right pane
